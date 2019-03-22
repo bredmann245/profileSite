@@ -11,7 +11,7 @@
     "react-scripts": "^2.1.8"
   },
   "scripts": {
-    "homepage": "https://bredmann245@github.io/myApp",
+    "homepage": "https://bredmann245.github.io/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
