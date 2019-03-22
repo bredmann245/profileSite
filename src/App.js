@@ -9,21 +9,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Route
-          exact={true}
-          path={process.env.PUBLIC_URL + "/profile"}
-          component={Home}
-        />
-        <Route
-          exact={true}
-          path={process.env.PUBLIC_URL + "/about"}
-          component={About}
-        />
-        <Route
-          exact={true}
-          path={process.env.PUBLIC_URL + "/contact"}
-          component={Contact}
-        />
+        <Route exact={true} path={`/`} component={Home} />
+        <Route exact={true} path={`/about`} component={About} />
+        <Route exact={true} path={`/contact`} component={Contact} />
       </div>
     );
   }
